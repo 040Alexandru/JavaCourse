@@ -15,7 +15,7 @@ public class Exercise4_2 {
         boolean isStudent = studentSvar.equalsIgnoreCase("ja");
         boolean isMedlem = medlemSvar.equalsIgnoreCase("ja");
 
-        double rabattProcent = 0;
+        double rabattProcent;
         if (isStudent && isMedlem){
             rabattProcent = 15;
         } else if (isStudent){
